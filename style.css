@@ -1,0 +1,81 @@
+body{background: #f1f0d1;font-family: verdana;font-size: 18px;overflow: auto;}
+
+h1,h2,h3{color: #878e63;padding-left: 5%;text-align: center;}
+
+p{padding-left: 2%;color:#878e63; }
+
+img{max-width: 100%;text-align: center;height: auto;width: auto;}
+
+#wrapper{max-width: 1020px;width: 98%;margin: 0 auto;background: #fefbe8;border: 1px solid #878e63;
+border-radius: 2px;box-shadow: 0 0 10px 0px rgba(12,3,25,0.8);}
+
+#call-out{height: auto;width: 100%;background: #878e63;overflow: hidden;}
+
+#call-out p {padding: 0.1 5px 0 0;color: #f1f0d1;font-family: verdana;font-size: 14px;text-align: right;margin-right: 10px;}
+
+header{padding: 5px;text-align: center;width: 98%;min-height: 125px;}
+
+nav ul{list-style: none;;margin: 0;padding-left:50px;}
+
+nav ul li{float: left;width: 15%;border: 1px solid #878e63;}
+
+nav ul li a{background:#f1f0d1;padding: 5px 12px;display: block;text-align: center;
+	font-weight: bold;text-decoration: none; color:#878e63;font-weight: 18px; }
+	
+	nav ul li a:hover {background:#878e63;color:#f1f0d1; }
+	
+	nav ul li.active a{background:#878e63;color:#f1f0d1; }
+	
+	.clearfix{clear: both;}
+	
+	.banner img{width: 100%;border-top: 1px solid#878e63;border-bottom: 1px solid#878e63; }
+	
+	.col-left {float: left;margin: -2px 1px 1px 1px;width: 55%;overflow: hidden;}
+	
+	.side-bar{width: 40%;margin:1px;text-align: center;float: right;overflow: hidden;}
+	
+	.therapy{float: left;margin: 0 auto;padding: 1px;width: 100%}
+	
+	.section {float: left;text-align: center;width: 29%;margin: 2px;font-size: 18px;}
+	
+	.section1 {float: left; padding-left:4%; text-align: center;width: 29%;margin: 2px;font-size: 18px;}
+	.section2{float: left; padding-left:2%; text-align: center;width: 29%;margin: 2px;font-size: 18px;}
+	.section3 {float: left; padding-left:2%; text-align: center;width: 29%;margin: 2px;font-size: 18px;}
+	
+	footer{background:#878e63;width: 100%;overflow:hidden; }
+	
+	footer p,h3{color: #f1f0d1;}
+	
+	ul {list-style-type: none;margin: 0;}
+	ul li{display: inline;}
+	ul li img{height: 50px;}
+	
+	*/...............media.............*/
+	@media screen and (max-width: 478px){ 
+	body{font-size: 13px;}}
+	
+		@media screen and (max-width: 740px){ 
+		nav{width: 100%;margin-bottom: 10px;}
+		
+		nav ul { list-style:none; margin:0 auto; padding-left: 0px;}
+		
+		nav ul li{text-align: center;margin: 0 auto;width: 100%; 
+		border-top: 1px solid #878e63;
+		border-right: 0px solid #878e63;
+		border-bottom: 1px solid #878e63;
+		border-left: 0px solid #878e63;}
+		
+		nav ul li a { padding: 8px 0px; font-size: 16px;}
+		
+		
+		.col-left{width: 100%;}
+		
+		.side-bar{width: 100%;}
+		
+		.section{width: 100%;float: left;margin: 0px}
+		.section1 {float: left; padding-left:4%; text-align: center;width: 29%;margin: 2px;font-size: 18px;}
+		.section2{float: left; padding-left:2%; text-align: center;width: 29%;margin: 2px;font-size: 18px;}
+		.section3 {float: left; padding-left:2%; text-align: center;width: 29%;margin: 2px;font-size: 18px;}
+
+
+	}
